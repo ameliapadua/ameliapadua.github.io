@@ -1,7 +1,7 @@
 body {
-	font-family: 'Nunito', sans-serif;
-	color: #FAF3BC;
-	background: #420600 url('img/bg-texture.jpg') repeat;
+	font-family: 'Brawler', serif;
+	color: #522900;
+	background: #FFE0A3 url('img/tileable_wood_texture.png') repeat;
 }
 
 a {
@@ -16,7 +16,18 @@ h1 {
 
 h2 {
 	font-size: 1.5em;
-	color: #B4C34F;
+/*	color: #B4C34F;
+*/}
+
+.lace{
+position: fixed;
+repeat:repeat-x;
+background-image:url('http://static.tumblr.com/3yblkz0/S8omdno3x/jaja.png');
+left:0px;
+top: 0px;
+height:18px;
+width:100%;
+z-index: 9999;
 }
 
 .btn {
