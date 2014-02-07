@@ -1,106 +1,198 @@
 <!DOCTYPE html>
 <html>
-	<head>
+    <head>
       <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
       <title>Dev Pizza Camp</title>
-
-	</head>
+      <link rel="stylesheet" href="css/normalize.css" type="text/css" media="screen" >
+      <link rel="stylesheet" href="css/grid.css" type="text/css" media="screen" />
+      <link rel="stylesheet" href="css/style.css" type="text/css" media="screen" />
+    </head>
 
   <body>
-    <img src="img/dev_pizza_camp_logo.png" alt="Dev Pizza Camp" />
+    <div class="container">
+      <img src="img/dev_pizza_camp_logo.png" alt="Dev Pizza Camp" id="logo" />
 
-    <div>Drinks</div>
+      <div class="grid_12">
+        <div class="category"><h2>Drinks</h2></div>
 
-    <div>Cocktail 1</div>
-    <div>Their house is a museum where people come to see ‘em.</div>
-    <div>10</div>
+        <div class="grid_12 omega">
+          <div class="food_item">Cocktail 1</div>
+          <div class="description grid_10">Their house is a museum where people come to see ‘em.</div>
+          <div class="price grid_2 omega">10</div>
+        </div>
 
-    <div>Cocktail 2</div>
-    <div>They really are a scream the Addams Family.</div>
-    <div>10</div>
+        <div class="grid_12 omega">
+          <div class="food_item">Cocktail 2</div>
+          <div class="description grid_10">They really are a scream the Addams Family.</div>
+          <div class="price grid_2 omega">10</div>
+        </div>
 
-    <div>Cocktail 3</div>
-    <div>Well we're movin' on up to the east side.</div>
-    <div>11</div>
+        <div class="grid_12 omega">
+          <div class="food_item">Cocktail 3</div>
+          <div class="description grid_10">Well we're movin' on up to the east side.</div>
+          <div class="price grid_2 omega">11</div>
+        </div>
 
-    <div>Cocktail 4</div>
-    <div>Well we're movin' on up to the east side to a deluxe apartment in the sky?</div>
-    <div>12</div>
+        <div class="grid_12 omega">
+          <div class="food_item">Cocktail 4</div>
+          <div class="description grid_10">Well we're movin' on up to the east side to a deluxe apartment in the sky?</div>
+          <div class="price grid_2 omega">12</div>
+        </div>
 
+        <div class="grid_12 omega">
+          <div class="food_item">Cocktail 5</div>
+          <div class="description grid_10">Didn't need no welfare states.</div>
+          <div class="price grid_2 omega">12</div>
+        </div>
 
-    <div>Appetizers</div>
-
-    <div>Appetizer 1</div>
-    <div>Gee our old Lasalle ran great.</div>
-    <div>2.95</div>
-
-    <div>Appetizer 2</div>
-    <div>Makin' your way in the world today takes everything you've got.</div>
-    <div>3.50</div>
-
-    <div>Appetizer 3</div>
-    <div>Takin' a break from all your worries sure would help a lot.</div>
-    <div>3.95</div>
-
-    <div>Appetizer 4</div>
-    <div>Friendly neighbors there that's where we meet.</div>
-    <div>4.95</div>
-
-    <div>Appetizer 5</div>
-    <div>Can you tell me how to get how to get to Sesame Street?</div>
-    <div>6.50</div>
-
-    <div>Appetizer 6</div>
-    <div>They call him Flipper Flipper faster than lightning.</div>
-    <div>6.50</div>
+        <div class="grid_12 omega">
+          <div class="food_item">Cocktail 6</div>
+          <div class="description grid_10">Everybody pulled his weight.</div>
+          <div class="price grid_2 omega">13</div>
+        </div>
+      </div>
 
 
-    <div>Soup &amp; Salad</div>
+      <div class="grid_6">
+        <div class="category"><h2>Appetizers</h2></div>
 
-    <div>Soup 1</div>
-    <div>Who could it be? Believe it or not its just me.</div>
-    <div>3.50</div>
+        <div class="grid_6 omega">
+          <div class="food_item">Appetizer 1</div>
+          <div class="description grid_4">Gee our old Lasalle ran great.</div>
+          <div class="price grid_2 omega">2.95</div>
+        </div>
 
-    <div>Soup 2</div>
-    <div>I guess well never know.</div>
-    <div>4.50</div>
+        <div class="grid_6 omega">
+          <div class="food_item">Appetizer 2</div>
+          <div class="description grid_4">Makin' your way in the world today takes everything you've got.</div>
+          <div class="price grid_2 omega">3.50</div>
+        </div>
 
-    <div>Salad 1</div>
-    <div>Its like a kind of torture to have to watch the show.</div>
-    <div>5.95</div>
+        <div class="grid_6 omega">
+          <div class="food_item">Appetizer 3</div>
+          <div class="description grid_4">Takin' a break from all your worries sure would help a lot.</div>
+          <div class="price grid_2 omega">3.95</div>
+        </div>
 
-    <div>Salad 2</div>
-    <div>Now the world don't move to the beat of just one drum.</div>
-    <div>6.95</div>
+        <div class="grid_6 omega">
+          <div class="food_item">Appetizer 4</div>
+          <div class="description grid_4">Friendly neighbors there that's where we meet.</div>
+          <div class="price grid_2 omega">4.95</div>
+        </div>
 
-    <div>Salad 3</div>
-    <div>What might be right for you may not be right for some.</div>
-    <div>9.50</div>
+        <div class="grid_6 omega">
+          <div class="food_item">Appetizer 5</div>
+          <div class="description grid_4">Can you tell me how to get how to get to Sesame Street?</div>
+          <div class="price grid_2 omega">6.50</div>
+        </div>
+      </div>
+<!--       <div class="food_item">Appetizer 6</div>
+      <div class="description">They call him Flipper Flipper faster than lightning.</div>
+      <div class="price">6.50</div> -->
 
-    <div>Deep Dish Pizza</div>
-    <div>small medium large</div>
-    <div>cheese only 9.95 11.95 15.95</div>
-    <div>extra topping .75 1.75 2.25</div>
+      <div class="grid_6 omega">
+        <div class="category"><h2>Soup &amp; Salad</h2></div>
 
-    <div>Thin Crust Pizza</div>
-    <div>small medium large</div>
-    <div>cheese only 9.95 11.95 15.95</div>
-    <div>extra topping .75 1.75 2.25</div>
+        <div class="grid_6 omega">
+          <div class="food_item">Soup 1</div>
+          <div class="description grid_4">Who could it be? Believe it or not its just me.</div>
+          <div class="price grid_2 omega">3.50</div>
+        </div>
 
+        <div class="grid_6 omega">
+          <div class="food_item">Soup 2</div>
+          <div class="description grid_4">I guess well never know.</div>
+          <div class="price grid_2 omega">4.50</div>
+        </div>
 
-    <div>Dessert</div>
+        <div class="grid_6 omega">
+          <div class="food_item">Salad 1</div>
+          <div class="description grid_4">Its like a kind of torture to have to watch the show.</div>
+          <div class="price grid_2 omega">5.95</div>
+        </div>
 
-    <div>Dessert 1</div>
-    <div>Come and play. Everything's A-OK.</div>
-    <div>6.50</div>
+        <div class="grid_6 omega">
+          <div class="food_item">Salad 2</div>
+          <div class="description grid_4">Now the world don't move to the beat of just one drum.</div>
+          <div class="price grid_2 omega">6.95</div>
+        </div>
 
-    <div>Dessert 2</div>
-    <div>Friendly neighbors there that's where we meet.</div>
-    <div>8.00</div>
+        <div class="grid_6 omega">
+          <div class="food_item">Salad 3</div>
+          <div class="description grid_4">What might be right for you may not be right for some.</div>
+          <div class="price grid_2 omega">9.50</div>
+        </div>
+      </div>
 
-    <div>Dessert 3</div>
-    <div>Now the world don't move to the beat of just one drum.</div>
-    <div>9.25</div>
+      <div class="grid_12">
+        <div class="category"><h2>Deep Dish Pizza</h2></div>
+        <div class="grid_9">
+          <div class="grid_9">
+            <div class="grid_3"> </div>
+            <div class="grid_2">small</div>
+            <div class="grid_2">medium</div>
+            <div class="grid_2 omega">large</div>
+          </div>
+          <div class="grid_9">
+            <div class="grid_3">cheese only</div>
+            <div class="grid_2">10.95</div>
+            <div class="grid_2">13.95</div>
+            <div class="grid_2 omega">18.95</div>
+          </div>
+          <div class="grid_9">
+            <div class="grid_3">extra topping</div>
+            <div class="grid_2">75</div>
+            <div class="grid_2">1.75</div>
+            <div class="grid_2 omega">2.25</div>
+          </div>
+        </div>
 
+      <div class="grid_12">
+        <div class="category"><h2>Thin Crust Pizza</h2></div>
+        <div class="grid_9">
+          <div class="grid_9">
+            <div class="grid_3"> </div>
+            <div class="grid_2">small</div>
+            <div class="grid_2">medium</div>
+            <div class="grid_2 omega">large</div>
+          </div>
+          <div class="grid_9">
+            <div class="grid_3">cheese only</div>
+            <div class="grid_2">9.95</div>
+            <div class="grid_2">11.95</div>
+            <div class="grid_2 omega">15.95</div>
+          </div>
+          <div class="grid_9">
+            <div class="grid_3">extra topping</div>
+            <div class="grid_2">75</div>
+            <div class="grid_2">1.75</div>
+            <div class="grid_2 omega">2.25</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="grid_12">
+        <div class="category"><h2>Dessert</h2></div>
+
+        <div class="grid_12 omega">
+          <div class="food_item">Dessert 1</div>
+          <div class="description grid_10">Come and play. Everything's A-OK.</div>
+          <div class="price grid_2 omega">6.50</div>
+        </div>
+
+        <div class="grid_12 omega">
+          <div class="food_item">Dessert 2</div>
+          <div class="description grid_10">Friendly neighbors there that's where we meet.</div>
+          <div class="price grid_2 omega">8.00</div>
+        </div>
+
+        <div class="grid_12 omega">
+          <div class="food_item">Dessert 3</div>
+          <div class="description grid_10">Now the world don't move to the beat of just one drum. </div>
+          <div class="price grid_2 omega">9.25</div>
+        </div>
+      </div>
+
+    </div>
   </body>
 </html>

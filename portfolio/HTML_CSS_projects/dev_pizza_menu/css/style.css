@@ -1,0 +1,21 @@
+.category {
+	text-align: center;
+	vertical-align: bottom;
+}
+
+.description {
+	text-align: left;
+	vertical-align: top;
+}
+
+.price {
+	text-align: right;
+	margin-right: 0;
+	padding-right: 0;
+	vertical-align: top;
+}
+
+#logo {
+	display: block;
+	margin: 50px auto 50px auto;
+}
