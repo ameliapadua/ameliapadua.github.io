@@ -15,7 +15,26 @@
 	vertical-align: top;
 }
 
+.pizza_prices {
+	display: block;
+	margin: 20px auto 20px 150px;
+}
+
+h2 {
+	margin: 10px auto 25px auto;
+}
+
 #logo {
 	display: block;
 	margin: 50px auto 50px auto;
+	border: 5px solid #333300;
+	padding: 10px 25px;
+}
+
+#soup_salad {
+	margin-left: 120px;
+}
+
+#small_food .price {
+	margin-left: 50px;
 }
