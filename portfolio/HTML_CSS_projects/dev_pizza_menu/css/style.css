@@ -1,3 +1,12 @@
+body {
+	background: #522900 url('img/brick_background.jpg') repeat;
+	font-family: 'Lato', Arial, sans-serif;
+}
+
+h2 {
+	margin: 10px auto 25px auto;
+}
+
 .category {
 	text-align: center;
 	vertical-align: bottom;
@@ -6,6 +15,7 @@
 .description {
 	text-align: left;
 	vertical-align: top;
+	font-style: italic;
 }
 
 .price {
@@ -20,20 +30,12 @@
 	margin: 20px auto 20px 150px;
 }
 
-h2 {
-	margin: 10px auto 25px auto;
-}
-
-body {
-	background: #522900 url('img/brick_background.jpg') repeat;
-}
-
 #container {
 	background: #E0D6CC url('img/lightpaperfibers.png') repeat;
 	display: block;
 	margin: 20px auto 20px 125px;
 	padding: 0 20px;
-
+	box-shadow: 10px 10px 5px #333333;
 }
 
 #logo {
