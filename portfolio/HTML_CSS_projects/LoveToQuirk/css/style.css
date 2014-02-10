@@ -32,6 +32,10 @@ h2 {
 	background-color: #c3b6a8;
 }
 
+.container {
+	margin: 50px auto;
+}
+
 ul.nav {
 	margin: 120px 0 0 0;
 	list-style: none;
@@ -45,6 +49,7 @@ ul.nav li {
 
 ul.nav li a {
 	color: #412000;
+	font-size: 20px;
 }
 
 #intro {
@@ -61,15 +66,22 @@ ul.nav li a {
 }
 
 #copyright {
-	border-top: 8px solid #2A0400;
+	border-top: 8px solid #b9a999;
 	padding: 10px 0px;
 	margin: 15px 0px;
 	text-align: center;
 }
 
+#coffee_and_cookie {
+	display: block;
+	margin: 30px auto 0 auto;
+}
 
-
-
+#quirk_cookies {
+	display: block;
+	margin-right: 0;
+	margin-left: 50px;
+}
 
 
 
