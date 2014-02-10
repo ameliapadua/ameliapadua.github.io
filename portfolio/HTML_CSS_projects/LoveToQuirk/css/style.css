@@ -85,6 +85,8 @@ ul.nav li a {
 
 #cookies {
 	margin-top: 30px;
+	border: 3px solid #FFFFFF;
+	box-shadow: 5px 5px 5px #999999;
 }
 
 #header_nav {
@@ -99,8 +101,8 @@ ul.nav li a {
 
 #nav_bar {
 	height: 50%;
-	/*margin-bottom: 50px;*/
 }
+
 
 
 
