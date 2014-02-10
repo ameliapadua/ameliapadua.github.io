@@ -37,7 +37,7 @@ h2 {
 }
 
 ul.nav {
-	margin: 120px 0 0 0;
+	margin-top: 50px;
 	list-style: none;
 	float: right;
 }
@@ -83,6 +83,24 @@ ul.nav li a {
 	margin-left: 50px;
 }
 
+#cookies {
+	margin-top: 30px;
+}
+
+#header_nav {
+	height: 183px;
+}
+
+#header {
+	height: 50%;
+	font-size: 32px;
+	text-align: center;
+}
+
+#nav_bar {
+	height: 50%;
+	/*margin-bottom: 50px;*/
+}
 
 
 
