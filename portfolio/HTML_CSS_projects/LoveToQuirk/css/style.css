@@ -21,7 +21,7 @@ h2 {
 
 .btn {
 	color: #412000;
-	background: #4FB69F url('img/texture.png') no-repeat right top;
+	background: #b9a999 url('img/texture.png') no-repeat right top;
 	padding: 15px 30px;
 	margin: 40px 0px;
 	border-radius: 25px;
@@ -29,7 +29,7 @@ h2 {
 }
 
 .btn:hover {
-	background-color: #4CC4A7;
+	background-color: #c3b6a8;
 }
 
 ul.nav {
@@ -51,13 +51,13 @@ ul.nav li a {
 	margin: 50px 0 75px 0;	
 }
 
-#new-cupcakes img {
-	border: 8px solid  #FAF3BC;
+#my_quirk img {
+	border: 8px solid  #b9a999;
 	margin: 0 0 20px 0;
 }
 
-#featured-cupcake img {
-	border: 8px solid  #FAF3BC;	
+#my_love img {
+	border: 8px solid  #b9a999;	
 }
 
 #copyright {
