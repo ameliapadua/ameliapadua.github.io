@@ -1,11 +1,11 @@
 body {
-	font-family: 'Nunito', sans-serif;
-	color: #FAF3BC;
+	font-family: 'Brawler', serif;
+	color: #412000;
 	background: #FFE0A3 url('img/tileable_wood_texture.png') repeat;
 }
 
 a {
-	color: #4FB69F;
+	color: #412000;
 	text-decoration: none;
 }
 
@@ -16,11 +16,11 @@ h1 {
 
 h2 {
 	font-size: 1.5em;
-	color: #B4C34F;
+	color: #412000;
 }
 
 .btn {
-	color: #FAF3BC;
+	color: #412000;
 	background: #4FB69F url('img/texture.png') no-repeat right top;
 	padding: 15px 30px;
 	margin: 40px 0px;
@@ -44,7 +44,7 @@ ul.nav li {
 }
 
 ul.nav li a {
-	color: #FAF3BC;
+	color: #412000;
 }
 
 #intro {
