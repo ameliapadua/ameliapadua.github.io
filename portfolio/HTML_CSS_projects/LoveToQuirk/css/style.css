@@ -103,10 +103,10 @@ ul.nav li a {
 	height: 50%;
 }
 
-
-
-
-
+#logo {
+	border: 3px solid #000033;
+	box-shadow: 0 0 30px;
+}
 
 
 
